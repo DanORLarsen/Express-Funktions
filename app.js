@@ -17,4 +17,5 @@ express()
 .listen(8080);
 
 //http://localhost:8080/api/v1/service1/greet?name=World = uses createGreeting method and sets name to world.
+//Without the name=World it will say hello strangerDanger because i told it to in Greet if it didnt get a name in the query
 //Currently at 3.4 chapter in NodeJs Notes For Professionals
